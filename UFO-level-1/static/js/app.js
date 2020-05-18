@@ -40,8 +40,8 @@ function runEnter() {
    var inputValue = inputElement.property("value");
 
   console.log(inputValue);
-  console.log(tableData);
+  // console.log(tableData);
 
   var filteredData = tableData.filter(data => data.datetime === inputValue);
 
-  console.log(filteredData);
+  console.log(filteredData)};
